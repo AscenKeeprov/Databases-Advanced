@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20180804122200_Initial.cs" />
+    <Compile Remove="Migrations\20180804123630_Initial.cs" />
+    <Compile Remove="Migrations\20180804123744_Initial.cs" />
+    <Compile Remove="Migrations\20180804124004_Initial.cs" />
+    <Compile Remove="Migrations\20180804124111_Initial.cs" />
+    <Compile Remove="Migrations\20180804124433_Initial.cs" />
+    <Compile Remove="Migrations\20180804124722_Initial.cs" />
+    <Compile Remove="Migrations\20180804125744_Initial.cs" />
+    <Compile Remove="Migrations\20180804130148_Initial.cs" />
+    <Compile Remove="Migrations\20180804132016_Initial.cs" />
+    <Compile Remove="Migrations\20180804132835_Initial.cs" />
+    <Compile Remove="Migrations\20180804133045_Initial.cs" />
+    <Compile Remove="Migrations\20180804134159_Initial.cs" />
+    <Compile Remove="Migrations\20180805152504_Initial.cs" />
+    <Compile Remove="Migrations\20180805164136_Initial.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TeamBuilder.Models\TeamBuilder.Models.csproj" />
+  </ItemGroup>
+
+</Project>
