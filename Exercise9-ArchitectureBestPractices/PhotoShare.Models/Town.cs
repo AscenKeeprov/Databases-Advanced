@@ -1,0 +1,20 @@
+﻿namespace PhotoShare.Models
+{
+    using System.Collections.Generic;
+
+    public class Town
+    {
+	public Town()
+	{
+	    UsersBornInTown = new HashSet<User>();
+	    UsersCurrentlyLivingInTown = new HashSet<User>();
+	}
+
+	public int Id { get; set; }
+	public string Name { get; set; }
+	public string Country { get; set; }
+
+	public ICollection<User> UsersBornInTown { get; set; }
+	public ICollection<User> UsersCurrentlyLivingInTown { get; set; }
+    }
+}
