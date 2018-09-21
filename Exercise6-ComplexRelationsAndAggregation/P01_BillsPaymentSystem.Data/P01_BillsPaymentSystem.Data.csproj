@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20180713114741_Initial.cs" />
+    <Compile Remove="Migrations\20180713114933_Initial.cs" />
+    <Compile Remove="Migrations\20180713122253_Initial.cs" />
+    <Compile Remove="Migrations\20180713123445_Initial.cs" />
+    <Compile Remove="Migrations\20180713124108_Initial.cs" />
+    <Compile Remove="Migrations\20180713124333_FK_TEST.cs" />
+    <Compile Remove="Migrations\20180713135617_Initial.cs" />
+    <Compile Remove="Migrations\20180713144619_FK_Testing.cs" />
+    <Compile Remove="Migrations\20180713144709_Initial.cs" />
+    <Compile Remove="Migrations\20180713174602_UQ_Testing.cs" />
+    <Compile Remove="Migrations\20180713174655_UQ_Testing.cs" />
+    <Compile Remove="Migrations\20180713190830_Initial.cs" />
+    <Compile Remove="Migrations\20180714104009_Identities.cs" />
+    <Compile Remove="Migrations\20180714104117_Initial.cs" />
+    <Compile Remove="Migrations\20180714105111_Initial.cs" />
+    <Compile Remove="Migrations\20180714105455_Initial.cs" />
+    <Compile Remove="Migrations\20180714105628_Initial.cs" />
+    <Compile Remove="Migrations\20180714111034_Initial.cs" />
+    <Compile Remove="Migrations\20180714111254_Initial.cs" />
+    <Compile Remove="Migrations\20180714111643_Initial.cs" />
+    <Compile Remove="Migrations\20180714111847_Initial.cs" />
+    <Compile Remove="Migrations\20180714112115_Initial.cs" />
+    <Compile Remove="Migrations\20180714112429_Initial.cs" />
+    <Compile Remove="Migrations\20180714112454_Initial.cs" />
+    <Compile Remove="Migrations\20180714112612_Initial.cs" />
+    <Compile Remove="Migrations\20180714113225_TEST.cs" />
+    <Compile Remove="Migrations\20180714113259_Initial.cs" />
+    <Compile Remove="Migrations\20180714113814_TEST.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\P01_BillsPaymentSystem.Data.Models\P01_BillsPaymentSystem.Data.Models.csproj" />
+  </ItemGroup>
+
+</Project>

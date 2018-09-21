@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\P01_BillsPaymentSystem.Data\P01_BillsPaymentSystem.Data.csproj" />
+    <ProjectReference Include="..\P02_BillsPaymentSystem.Data.Validation\P02_BillsPaymentSystem.Data.Validation.csproj" />
+  </ItemGroup>
+
+</Project>
