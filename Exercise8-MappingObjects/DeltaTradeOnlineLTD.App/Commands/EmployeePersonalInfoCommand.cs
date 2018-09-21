@@ -1,0 +1,28 @@
+﻿using System;
+using DeltaTradeOnlineLTD.App.Interfaces;
+using DeltaTradeOnlineLTD.Data.EntityDataTransferObjects;
+using DeltaTradeOnlineLTD.Models;
+
+namespace DeltaTradeOnlineLTD.App.Commands
+{
+    public class EmployeePersonalInfoCommand : Command
+    {
+	protected override int MinRequiredParameters => 1;
+	protected override int MaxAllowedParameters => 1;
+
+	private readonly IEmployeeController employeeController;
+
+	public EmployeePersonalInfoCommand(IEmployeeController employeeController, params string[] parameters)
+	    : base(parameters)
+	{
+	    this.employeeController = employeeController;
+	}
+
+	public override void Execute()
+	{
+	    int employeeId = int.Parse(Parameters[0]);
+	    EmployeeInfoFullDTO dto = employeeController.GetPersonalInfo(employeeId);
+	    Console.WriteLine(dto.ToString());
+	}
+    }
+}
