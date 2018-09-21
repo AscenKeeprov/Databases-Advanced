@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductShop.App", "ProductShop.App\ProductShop.App.csproj", "{2A84078C-079A-47CB-9CEC-9E6A8521584D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductShop.Data", "ProductShop.Data\ProductShop.Data.csproj", "{389C5D15-7EB0-4AF2-9C89-1A31DDDAC4CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductShop.Models", "ProductShop.Models\ProductShop.Models.csproj", "{D62BC701-3425-4963-AE45-DBF29518ABE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealer.App", "CarDealer.App\CarDealer.App.csproj", "{FA824119-3820-4880-876B-BDB001D45E6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealer.Data", "CarDealer.Data\CarDealer.Data.csproj", "{A2DB8ED1-4071-4AE4-BEF9-BD464F71103D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealer.Models", "CarDealer.Models\CarDealer.Models.csproj", "{9F428C92-DC0A-411B-A666-0C51D20C9C3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A84078C-079A-47CB-9CEC-9E6A8521584D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A84078C-079A-47CB-9CEC-9E6A8521584D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A84078C-079A-47CB-9CEC-9E6A8521584D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A84078C-079A-47CB-9CEC-9E6A8521584D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{389C5D15-7EB0-4AF2-9C89-1A31DDDAC4CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{389C5D15-7EB0-4AF2-9C89-1A31DDDAC4CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{389C5D15-7EB0-4AF2-9C89-1A31DDDAC4CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{389C5D15-7EB0-4AF2-9C89-1A31DDDAC4CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D62BC701-3425-4963-AE45-DBF29518ABE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D62BC701-3425-4963-AE45-DBF29518ABE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D62BC701-3425-4963-AE45-DBF29518ABE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D62BC701-3425-4963-AE45-DBF29518ABE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA824119-3820-4880-876B-BDB001D45E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA824119-3820-4880-876B-BDB001D45E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA824119-3820-4880-876B-BDB001D45E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA824119-3820-4880-876B-BDB001D45E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2DB8ED1-4071-4AE4-BEF9-BD464F71103D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2DB8ED1-4071-4AE4-BEF9-BD464F71103D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2DB8ED1-4071-4AE4-BEF9-BD464F71103D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2DB8ED1-4071-4AE4-BEF9-BD464F71103D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F428C92-DC0A-411B-A666-0C51D20C9C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F428C92-DC0A-411B-A666-0C51D20C9C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F428C92-DC0A-411B-A666-0C51D20C9C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F428C92-DC0A-411B-A666-0C51D20C9C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {029F8228-679D-4C36-897F-7FB9B0E4F0C0}
+	EndGlobalSection
+EndGlobal
