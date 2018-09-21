@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <StartupObject>PetClinic.App.StartUp</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="App\Results\**" />
+    <Compile Remove="Results - Copy\**" />
+    <EmbeddedResource Remove="App\Results\**" />
+    <EmbeddedResource Remove="Results - Copy\**" />
+    <None Remove="App\Results\**" />
+    <None Remove="Results - Copy\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20180811125337_Initial.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+</Project>
